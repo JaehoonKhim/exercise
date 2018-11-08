@@ -7,5 +7,9 @@ func ComputerPowerOn() {
 }
 
 func ComputerPowerOff() {
-	fmt.Println("computer ooff")
+	fmt.Println("computer off")
+}
+
+func ComputerReset() {
+	fmt.Println("computer reset")
 }
