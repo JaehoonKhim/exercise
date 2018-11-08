@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
-func Comment(memo string) {
-	fmt.Println(memo)
+func AddComment(memo string) {
+	fmt.Printf("add %s", memo)
+}
+
+func RemoveComment(memo string) {
+	fmt.Printf("remove %s", memo)
 }
