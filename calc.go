@@ -7,3 +7,7 @@ func Add(x, y int) int {
 func Minus(x, y int) int {
 	return x - y
 }
+
+func Divide(x, y int) int {
+	return x / y
+}
