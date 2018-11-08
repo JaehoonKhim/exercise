@@ -9,3 +9,11 @@ func AddComment(memo string) {
 func RemoveComment(memo string) {
 	fmt.Printf("remove %s", memo)
 }
+
+func Done(memo string) {
+	fmt.Printf("done %s", memo)
+}
+
+func Modify(memo string) {
+	fmt.Printf("modify %s", memo)
+}
